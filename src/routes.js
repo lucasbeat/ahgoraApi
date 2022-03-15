@@ -4,7 +4,7 @@ const FilterPauseController = require("./controllers/FilterPauseController");
 const PauseController = require("./controllers/PauseController");
 
 router.get("/", (req, res) => {
-  res.json({ message: "ta up" });
+  res.json({ message: "server on" });
 });
 
 router.get("/pauses", PauseController.getPauses);
